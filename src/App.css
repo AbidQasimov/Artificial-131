@@ -1,0 +1,19 @@
+:root {
+  --main-dark-color1:#0A121F;
+  --main-soft-dark-color2:#08101D;
+  --soft-blue-color:#3A68B8;
+  
+}
+nav.navbar {
+  background-color: var(--main-dark-color1);
+}
+.menim-custom-stilim{
+  background-color: var(--soft-blue-color);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+.navbar-toggler{
+  color: #fff;
+}
