@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './App.css'
+import './components/css/Navbar.css'
 import Navbar from './components/Navbar'
+import Introduction from './components/Introduction'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
     {/* Burada yazdigim kodlar JSx kodlardir */}
     <Navbar />
+    <Introduction/>
 
 
     </>

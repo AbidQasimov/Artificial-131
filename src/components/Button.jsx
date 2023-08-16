@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Button = () => {
+const Button = (props) => {
   return (
     <button className='menim-custom-stilim'>
-      Sign In
+      {props.buttonunIcindekiShekil&&<img src={props.buttonunIcindekiShekil}className='play-iconu' alt="" />}{props.buttonunIcindekiYazi}
     </button>
   )
 }

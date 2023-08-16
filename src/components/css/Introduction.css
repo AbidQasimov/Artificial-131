@@ -1,0 +1,86 @@
+@import url(./color.css);
+.introduction {
+    background-color: var(--main-soft-dark-color2); 
+    
+}
+.introduction .introduction__left-side h6{
+    color: var(--soft-blue-color);
+    text-transform: uppercase;
+}
+.introduction .introduction__left-side h2,
+.introduction .introduction__left-side p {
+    color: #fff;
+}
+.introduction__left-side p {
+font-size: 18px;
+font-weight: 600;
+line-height: 29px;
+}
+.main-img {
+    width: 100%;
+}
+
+/* Mobile First Approach */
+
+.introduction {
+
+    text-align: center;
+    padding: 50px 30px;
+}
+.introduction__left-side{
+    margin-bottom: 100px;
+}
+
+/* Eger shekli merkeze avtomotik bosluqda cekmek isteyir siz ise 
+display:block; */
+
+.introduction__right-side {
+    margin: 0 auto;
+}
+
+/* .introduction__left-side h2{
+    margin: 40px 0;
+} */
+.type-text{
+    color: #fff;
+    font-size: 34px;
+    font-weight: 700;
+    margin: 40px;
+}
+.button-groups {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+@media(max-width:320px){
+    .introduction{
+        padding: 20px;
+    }
+    .type-text{
+        align-items: flex-start;
+    }
+}
+@media(min-width:768px){
+.introduction{
+    padding: 50px 50px;
+    text-align: left;
+}
+.button-groups{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+}
+.play-iconu {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+

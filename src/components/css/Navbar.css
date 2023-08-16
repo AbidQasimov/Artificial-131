@@ -1,9 +1,4 @@
-:root {
-  --main-dark-color1:#0A121F;
-  --main-soft-dark-color2:#08101D;
-  --soft-blue-color:#3A68B8;
-  
-}
+@import url(./color.css);
 nav.navbar {
   background-color: var(--main-dark-color1);
 }
@@ -11,9 +6,14 @@ nav.navbar {
   background-color: var(--soft-blue-color);
   border: none;
   color: white;
-  padding: 15px 30px;
+  padding: 15px 20px;
   border-radius: 5px;
 }
 .navbar-toggler{
   color: #fff;
+}
+@media(max-width:320px){
+  .navbar-brand img {
+    width: 200px;
+  }
 }
